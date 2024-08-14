@@ -1,0 +1,109 @@
+*{
+    margin:0;
+}
+
+
+
+body{
+background-color: rgb(245, 211, 88);
+background-image: url("imgs/pomps.jpg_large");
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h1{
+   color: rgb(68, 46, 7) ;
+   font-size: 70px;
+   font-weight:400;
+   text-align:center;
+   text-decoration:underline;
+   margin-bottom: 40px;
+   font-family: 'Agbalumo';
+}
+
+
+#content{
+width: 70%;
+margin: 0 auto;
+background-color: beige;
+display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#sumario, #carac, #curiosidades, #sobre, #imagens, #besteps{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+#sumario{
+    
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+    flex-direction: row;
+}
+#sumario img{
+    width: 150px;
+}
+#sumario ul{
+    background-color:rgb(255, 229, 196);
+    border:rgb(70, 31, 9) 5px solid;
+    border-radius:50px;
+    height: 140px;
+    width: 40%;
+
+}
+#sumario ul a{
+    margin: 0 auto;
+    width: 15px;
+}
+ol{
+
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: rgb(97, 48, 13);
+    text-decoration:none;
+    margin: 0 auto;
+    
+}
+
+#videospodio{
+    display: flex;
+    gap: 25px;
+}
+
+h2{
+    color:rgb(70, 31, 9);
+    background-color:beige;
+    border-radius:50px;
+    height: auto;
+    width: 260px;
+    font-size: 30px;
+    padding: 7px;
+    border: solid;
+    font-family: 'Agbalumo';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.friends{
+    width: 270px;
+    height:auto; 
+}
+
+#imagens img{
+width: 225px;
+height: 225px;
+}
+#besteps h2{
+width: 400px;
+}
